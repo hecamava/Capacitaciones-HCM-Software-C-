@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+
+int main()
+{
+    //using namespace std;
+    
+    double x,y,z; 
+     
+	 std::cout<<"Digite la base: ";
+	 std::cin>>x;
+
+     std::cout<<"Digite el exponente: ";
+	 std::cin>>y;
+	 
+	 z=pow(x,y);  //using namespace std;
+
+      
+     std::cout<<"El resultado de elevar la base: "<<x<<" a la potencia "<<y<<" es: "<<z;
+    
+    return 0; 
+}
+
